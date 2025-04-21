@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://barathkumaran2003.github.io/React_portfolio/",
+  "homepage": "https://barathkumaran2003.github.io/Final_portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
