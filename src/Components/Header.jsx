@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfoliohome.css';
-import './PortfolioAnimation.js';
-import './Navigation.js';
+import '../../PortfolioAnimation.js';
+import '../../Navigation.js';
 import profile from '../../public/profile-pic (5).png';
 function Header () {
   return (
