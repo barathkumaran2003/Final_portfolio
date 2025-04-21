@@ -3,6 +3,6 @@
   import react from '@vitejs/plugin-react';
 
   export default defineConfig({
-    base: '/Final_portfolio/', // ← IMPORTANT
+    base: '/', // ← IMPORTANT
     plugins: [react()],
   });
