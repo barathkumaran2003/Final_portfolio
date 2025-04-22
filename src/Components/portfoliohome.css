@@ -186,7 +186,7 @@ background-color: #3b5998;
     padding: 0px;
     margin-top: 110px;
     left: 10px; /* Adjust positioning if needed */
-    animation: fadeInRight 1s ease-in-out forwards;
+    /* animation: fadeInRight 1s ease-in-out forwards; */
   }
 .link{
     text-decoration: none;

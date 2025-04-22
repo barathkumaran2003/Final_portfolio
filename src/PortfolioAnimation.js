@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
         entry.target.classList.add('visible');
       }
     });
+  },{
+    threshold: 0.1,
+    rootMargin: '0px 0px -100px 0px' // triggers earlier
   });
 
   document.querySelectorAll('.in-animation4, .in-animation5, .in-animation6, .in-animation7').forEach(section => {
