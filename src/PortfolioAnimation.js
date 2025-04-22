@@ -31,7 +31,7 @@
 
 //   console.log('Observer attached to:', document.querySelectorAll('.in-animation4, .in-animation5, .in-animation6, .in-animation7'));
 // });
-
+console.log('Script loaded!');
 document.addEventListener('DOMContentLoaded', () => {
   const animatedElements = document.querySelectorAll('.in-animation4, .in-animation5, .in-animation6, .in-animation7');
 
@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     animatedElements.forEach(el => {
       const box = el.getBoundingClientRect();
       if (box.top < triggerBottom) {
+        console.log('Checking visibility for:', el.className, '→ top:', box.top);
         el.classList.add('visible');
       }
     });

@@ -171,6 +171,13 @@ transition: transform 1s ease-out, opacity 1s ease-out;
 opacity: 1;
 transform: scale(1);
 }
+.in-animation4,
+.in-animation5,
+.in-animation6,
+.in-animation7 {
+  opacity: 1 !important;
+  transform: none !important;
+}
 
 
 .social-icons .fa-facebook {
