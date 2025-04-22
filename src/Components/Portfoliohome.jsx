@@ -44,7 +44,7 @@ function Portfoliohome() {
             </div>
           </div>
 
-          <div style={{ paddingTop: '160px' }}>
+          <div>
             <div className="blackw">
               <div className="in-animation7">
                 <h1 className="head1">HEY, I'M BARATHKUMARAN<samp className="dot">.</samp></h1>
