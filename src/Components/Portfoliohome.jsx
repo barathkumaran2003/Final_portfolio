@@ -10,6 +10,7 @@ import Footer from './Footer';
 import Contact from './Contact';
 import './PortfolioAnimation.js';
 import './Navigation.js';
+
 function Portfoliohome() {
   
  
@@ -163,7 +164,7 @@ function Portfoliohome() {
                             Developed the frontend of Point.Expert, a user-friendly flight booking platform that simplifies the process of searching and reserving flights.</p>                 
                             <div className="button123">
                                 <div className="pbutton">
-                                    <a href="Point Expert Case Study.html"><p>CASE STUDY</p></a>
+                                    <a href="/case-study"><p>CASE STUDY</p></a>
                                 </div>
                             </div>
                     </div>
@@ -184,7 +185,7 @@ function Portfoliohome() {
                                 Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.</p>
                                 <div className="button123">
                                     <div className="pbutton">
-                                        <a href="Hotel case study.html">
+                                        <a href="/hotel">
                                             <p>CASE STUDY</p>
                                         </a>
                                                                             </div>
@@ -207,7 +208,7 @@ function Portfoliohome() {
                                 Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally</p>
                                 <div className="button123">
                                     <div className="pbutton">               
-                                        <a href="PORTFOLIO CASE STUDY.html">
+                                        <a href="/portfolio">
                                             <p>CASE STUDY</p>
                                         </a>
                                                                             </div>
@@ -230,7 +231,7 @@ function Portfoliohome() {
                                 Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.                        </p>
                                 <div className="button123">
                                     <div className="pbutton">               
-                                        <a href="AVT casestudy.html">
+                                        <a href="/avt">
                                             <p>CASE STUDY</p>
                                         </a>
                                                                             </div>
