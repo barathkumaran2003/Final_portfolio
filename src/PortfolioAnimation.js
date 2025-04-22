@@ -11,7 +11,7 @@
 //     });
 //   });
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('Load', () => {
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       console.log('Observed:', entry.target, 'Is intersecting?', entry.isIntersecting); // Debug line
