@@ -179,7 +179,7 @@ background-color: #3b5998;
 
 .social-icons {
     position: absolute; /* Ensure the social icons are positioned correctly */
-    z-index: 10; /* Make sure they are on top */
+    z-index: 100; /* Make sure they are on top */
     display: flex;
     flex-direction: column;
     justify-content: center;
