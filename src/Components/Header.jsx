@@ -1,18 +1,32 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import './portfoliohome.css';
 import './PortfolioAnimation.js';
 import './Navigation.js';
 import profile from '../../public/profile-pic (5).png';
+
 function Header () {
+    const [darkMode, setDarkMode] = useState(false);
+
+useEffect(() => {
+  document.body.className = darkMode ? 'dark-mode' : '';
+}, [darkMode]);
+
   return (
     <>
         <div className="sticky">
             <div className="sticky2">
                 <img src={profile} alt="ab" className="profile"/>
-                <div>
+                <div style={{display:'flex'}}>
                     <p className="profile_name">
                         <samp> BARATHKUMARAN K S</samp>
                     </p>
+                    <button 
+  onClick={() => setDarkMode(!darkMode)} 
+  className="dark-toggle"
+>
+  {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+</button>
+
                 </div>
                 <div className="nav-links">
                     <li className="home_list">

@@ -132,7 +132,7 @@ transform: translateX(0);
 
 }
 .in-animation4 {
-opacity: 0;
+opacity: 1;
 transform: translateY(100px);
 transition: opacity 1s ease-out, transform 1s ease-out;
 }
@@ -142,7 +142,7 @@ opacity: 1;
 transform: translateY(0);
 }
 .in-animation5 {
-opacity: 0;
+opacity: 1;
 transform: translateX(-100px);
 transition: opacity 1s ease-out, transform 1s ease-out;
 }
@@ -152,7 +152,7 @@ opacity: 1;
 transform: translateX(0);
 }
 .in-animation6 {
-opacity: 0;
+opacity: 1;
 transform: translateX(100px);
 transition: opacity 1s ease-out, transform 1s ease-out;
 }
@@ -162,7 +162,7 @@ opacity: 1;
 transform: translateX(0);
 }    
 .in-animation7 {
-opacity: 0;
+opacity: 1;
 transform: scale(0.8);
 transition: transform 1s ease-out, opacity 1s ease-out;
 }
@@ -868,3 +868,24 @@ display: block;
 
 
 }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  body.dark-mode .bg,
+  body.dark-mode .bg1,
+  body.dark-mode .bg2 {
+    background-color: #1f1f1f;
+  }
+  
+  body.dark-mode .pbutton a,
+  body.dark-mode .button a,
+  body.dark-mode .abutton a {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Add more custom dark mode styles as needed */
+  
