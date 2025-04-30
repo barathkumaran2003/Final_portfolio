@@ -20,12 +20,12 @@ useEffect(() => {
                     <p className="profile_name">
                         <samp> BARATHKUMARAN K S</samp>
                     </p>
-                    <button 
+                    {/* <button 
   onClick={() => setDarkMode(!darkMode)} 
   className="dark-toggle"
 >
   {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
-</button>
+</button> */}
 
                 </div>
                 <div className="nav-links">
