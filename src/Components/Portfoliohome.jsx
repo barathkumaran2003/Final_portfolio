@@ -21,7 +21,7 @@ function Portfoliohome() {
         <Header />
         <div className="bg">
           <div>
-            <div className="in-animation5">
+            <div>
               <div className="social-icons">
                 <a href="https://www.linkedin.com/in/barathkumaran-k-s-8681b2246/" target="_blank" rel="noopener noreferrer" className="linkedin">
                   <i className="fab fa-linkedin"></i>
