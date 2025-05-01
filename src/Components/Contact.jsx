@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import './PortfolioAnimation.js';
-import './Navigation.js';
 
 function Contact() {
   const handleSubmit = async (e) => {

@@ -1,6 +1,4 @@
 import React from 'react';
-import './PortfolioAnimation.js';
-import './Navigation.js';
 import './casestudy.css';
 import Footer from './Footer.jsx';
 
