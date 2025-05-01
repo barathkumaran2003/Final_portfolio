@@ -53,28 +53,7 @@
 
 
 
-// window.addEventListener('load', () => {
-//   const observer = new IntersectionObserver(entries => {
-//     entries.forEach(entry => {
-//       if (entry.isIntersecting) {
-//         entry.target.classList.add('visible');
-//       }
-//     });
-//   }, {
-//     threshold: 0.1,               // Start animation early
-//     rootMargin: '0px 0px -100px 0px' // Extra buffer from bottom
-//   });
-
-//   const elementsToAnimate = document.querySelectorAll(
-//     '.in-animation4, .in-animation5, .in-animation6, .in-animation7'
-//   );
-
-//   elementsToAnimate.forEach(el => {
-//     observer.observe(el);
-//   });
-// });
-
-document.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -82,8 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }, {
-    threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
+    threshold: 0.1,               // Start animation early
+    rootMargin: '0px 0px -100px 0px' // Extra buffer from bottom
   });
 
   const elementsToAnimate = document.querySelectorAll(
@@ -94,3 +73,4 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(el);
   });
 });
+
