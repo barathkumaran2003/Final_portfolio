@@ -8,6 +8,7 @@ import Motor from '../../public/pmotor.png';
 import Card from '../../public/pcad.png';
 import Footer from './Footer';
 import Contact from './Contact';
+import PortfolioAnimation from '../PortfolioAnimation';
 
 
 
@@ -19,6 +20,7 @@ function Portfoliohome() {
       <div>
         <Header />
         <div className="bg">
+          <PortfolioAnimation/>
           <div>
             <div className="in-animation5">
               <div className="social-icons">
